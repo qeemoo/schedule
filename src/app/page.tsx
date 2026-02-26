@@ -1,8 +1,11 @@
+import DigitalClockDisplay from '@/Components/Clock/DigitalClockDisplay';
+import CenterLayout from '@/Components/Common/Layout/CenterLayout';
+
 const Home = () => {
   return (
-    <div>
-      <div>sdsd</div>
-    </div>
+    <CenterLayout>
+      <DigitalClockDisplay />
+    </CenterLayout>
   );
 };
 
